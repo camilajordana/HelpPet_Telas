@@ -1,0 +1,450 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Help Pet - Cadastro de denúncia</title>
+
+        <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon"></link>
+
+
+        <link type="text/css" rel="stylesheet" href="estilo/bootstrap.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="estilo/bootstrap.min.css"  media="screen,projection"/>
+
+        <link type="text/css" rel="stylesheet" href="estilo/helppet_css.css"  media="screen,projection"/>
+
+
+        <script src="js/jquery-1.11.0.min.js"></script>
+        <!-- <script src="js/bootstrap.min.js"></script> -->
+
+
+    </h:head>
+    <h:body>
+
+        <!-- Menu -->
+        <div id="header">
+            <ui:insert name="header">
+                <!-- Import de página de menu -->
+                <ui:include src="menuUsuario.xhtml"/>
+            </ui:insert>
+        </div>
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+
+        <!-- Título da página -->
+        <div id="home" class="home">
+            <div class="text-vcenter">
+                <h1 class="branco" style="color: #9400D3;">Denuncie e ajude a salvar animais!</h1>
+                <div style="margin-top: 10%;">
+                    <button class="btn btn-default" style="background-color: #9400D3; color: white;border-radius: 0px;width: 90px;" id="click">Denuncie</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Pequena listagem de denúncias -->
+        <div id="about" class="pad-section" style="background-color:#9400D3;">
+            <div class="container" align="center">
+                <h3 align="center" style="color: white;">Denúncias</h3>
+                <hr/>
+                <br/>
+                <div class="col-xs-18 col-sm-6 col-md-3">
+                    <div class="thumbnail caixa">
+                        <img src="imagens/gato1.png" alt="Foto da Denúncia" style="width:100%; height:170px; border-radius: 0px;"/>
+                        <div class="caption" align="center">
+                            <h5>Gatinho abandonado 1</h5>
+                            <div align="left">
+                                <p>Tipo: Abandono</p>
+                                <p>Local: Townsville</p>
+                                <p>Data: 22/11/2016</p>
+                            </div>
+                            <p><a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal1" style="background-color: #9400D3; color: white;border-radius: 0px;width: 100%;"><span class="glyphicon glyphicon-plus"></span><span></span>Ver Mais</a></p>
+
+                            <!-- Detalhamento da denúncia 1 -->
+
+                            <div class="modal fade" id="myModal1" role="dialog">
+                                <div class="modal-dialog">
+
+                                    <!-- Conteúdo -->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">Gatinho abandonado 1</h4>
+                                        </div>
+                                        <div class="modal-body">
+
+                                            <div class="col-md-12">
+                                                <div class="row">
+                                                    <div class="col-md-1">
+                                                    </div>
+                                                    <div class="col-md-5">
+                                                        <img src="imagens/gato1.png" alt="Foto da Denúncia" style="width:100%; height:250px;border-radius: 0px;"/>
+                                                    </div>
+                                                    <div class="col-md-5">
+                                                        <div align="left">
+                                                            <p>Tipo: Maus-tratos</p>
+                                                            <p>Local: Fenda do Bíquini</p>
+                                                            <p>Data: 20/11/2016</p>
+                                                            <p>Descrição: Estava caminhando pelo meu bairro e encontrei esse gatinho em uma casa na Fenda do Bíquini, próximo ao restaurante do Siri Cascudo. Ele estava muito debilitado, triste e bastante machucado. Desconfio que o dono pratique maus-tratos.</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-1">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" style="background-color: #9400D3; color: white; border-radius: 0px;" data-dismiss="modal">Fechar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-18 col-sm-6 col-md-3">
+                    <div class="thumbnail caixa">
+                        <img src="imagens/gato1.png" alt="Foto da Denúncia" style="width:100%; height:170px;border-radius: 0px;"/>
+                        <div class="caption" align="center">
+                            <h5>Gatinho abandonado 2</h5>
+                            <div align="left">
+                                <p>Tipo: Abandono</p>
+                                <p>Local: Townsville</p>
+                                <p>Data: 22/11/2016</p>
+                            </div>
+                            <p><a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal2" style="background-color: #9400D3; color: white;border-radius: 0px;width: 100%;"><span class="glyphicon glyphicon-plus"></span><span></span>Ver Mais</a></p>
+
+                            <!-- Detalhamento da denúncia 2 -->
+
+                            <div class="modal fade" id="myModal2" role="dialog">
+                                <div class="modal-dialog">
+
+                                    <!-- Conteúdo -->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">Gatinho abandonado 2</h4>
+                                        </div>
+                                        <div class="modal-body">
+
+                                            <div class="col-md-12">
+                                                <div class="row">
+                                                    <div class="col-md-1">
+                                                    </div>
+                                                    <div class="col-md-5">
+                                                        <img src="imagens/gato1.png" alt="Foto da Denúncia" style="width:100%; height:250px;border-radius: 0px;"/>
+                                                    </div>
+                                                    <div class="col-md-5">
+                                                        <div align="left">
+                                                            <p>Tipo: Maus-tratos</p>
+                                                            <p>Local: Fenda do Bíquini</p>
+                                                            <p>Data: 20/11/2016</p>
+                                                            <p>Descrição: Estava caminhando pelo meu bairro e encontrei esse gatinho em uma casa na Fenda do Bíquini, próximo ao restaurante do Siri Cascudo. Ele estava muito debilitado, triste e bastante machucado. Desconfio que o dono pratique maus-tratos.</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-1">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" style="background-color: #9400D3; color: white; border-radius: 0px;" data-dismiss="modal">Fechar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-18 col-sm-6 col-md-3">
+                    <div class="thumbnail caixa">
+                        <img src="imagens/gato1.png" alt="Foto da Denúncia" style="width:100%; height:170px;border-radius: 0px;"/>
+                        <div class="caption" align="center">
+                            <h5>Gatinho abandonado 3</h5>
+                            <div align="left">
+                                <p>Tipo: Abandono</p>
+                                <p>Local: Townsville</p>
+                                <p>Data: 22/11/2016</p>
+                            </div>
+                            <p><a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal3" style="background-color: #9400D3; color: white;border-radius: 0px;width: 100%;"><span class="glyphicon glyphicon-plus"></span><span></span>Ver Mais</a></p>
+
+                            <!-- Detalhamento da denúncia 3 -->
+
+                            <div class="modal fade" id="myModal3" role="dialog">
+                                <div class="modal-dialog">
+
+                                    <!-- Conteúdo -->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">Gatinho abandonado 3</h4>
+                                        </div>
+                                        <div class="modal-body">
+
+                                            <div class="col-md-12">
+                                                <div class="row">
+                                                    <div class="col-md-1">
+                                                    </div>
+                                                    <div class="col-md-5">
+                                                        <img src="imagens/gato1.png" alt="Foto da Denúncia" style="width:100%; height:250px;border-radius: 0px;"/>
+                                                    </div>
+                                                    <div class="col-md-5">
+                                                        <div align="left">
+                                                            <p>Tipo: Maus-tratos</p>
+                                                            <p>Local: Fenda do Bíquini</p>
+                                                            <p>Data: 20/11/2016</p>
+                                                            <p>Descrição: Estava caminhando pelo meu bairro e encontrei esse gatinho em uma casa na Fenda do Bíquini, próximo ao restaurante do Siri Cascudo. Ele estava muito debilitado, triste e bastante machucado. Desconfio que o dono pratique maus-tratos.</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-1">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" style="background-color: #9400D3; color: white; border-radius: 0px;" data-dismiss="modal">Fechar</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-18 col-sm-6 col-md-3">
+                    <div class="thumbnail caixa">
+                        <img src="imagens/gato1.png" alt="Foto da Denúncia" style="width:100%; height:170px;border-radius: 0px;"/>
+                        <div class="caption" align="center">
+                            <h5>Gatinho abandonado 4</h5>
+                            <div align="left">
+                                <p>Tipo: Abandono</p>
+                                <p>Local: Townsville</p>
+                                <p>Data: 22/11/2016</p>
+                            </div>
+                            <p><a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal4"  style="background-color: #9400D3; color: white;border-radius: 0px;width: 100%;"><span class="glyphicon glyphicon-plus"></span><span></span>Ver Mais</a></p>
+
+                            <!-- Detalhamento da denúncia 4 -->
+
+                            <div class="modal fade" id="myModal4" role="dialog">
+                                <div class="modal-dialog">
+
+                                    <!-- Conteúdo -->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">Gatinho abandonado 4</h4>
+                                        </div>
+                                        <div class="modal-body">
+
+                                            <div class="col-md-12">
+                                                <div class="row">
+                                                    <div class="col-md-1">
+                                                    </div>
+                                                    <div class="col-md-5">
+                                                        <img src="imagens/gato1.png" alt="Foto da Denúncia" style="width:100%; height:250px;border-radius: 0px;"/>
+                                                    </div>
+                                                    <div class="col-md-5">
+                                                        <div align="left">
+                                                            <p>Tipo: Maus-tratos</p>
+                                                            <p>Local: Fenda do Bíquini</p>
+                                                            <p>Data: 20/11/2016</p>
+                                                            <p>Descrição: Estava caminhando pelo meu bairro e encontrei esse gatinho em uma casa na Fenda do Bíquini, próximo ao restaurante do Siri Cascudo. Ele estava muito debilitado, triste e bastante machucado. Desconfio que o dono pratique maus-tratos.</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-1">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" style="background-color: #9400D3; color: white;border-radius: 0px;" data-dismiss="modal">Fechar</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                    <div align="right">
+                        <p><a href="listagemDenuncias.jsf" class="btn btn-default" style="background-color: white; color: #9400D3; font-weight:bold; width: 60px; height: 60px;border-radius:100%;">
+                                <i class="material-icons" style="color: #9400D3; padding-top: 12px;">add</i>
+                            </a>
+                        </p>
+
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Formulário de denúncia -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+
+
+
+                    <!-- Título do formulário -->
+
+                    <div class="container-fluid" id="denuncia">
+                        <div class="row">
+                            <div class="col-md-12" align="center">
+                                <h3 style="color: #9400D3;">Faça sua denúncia</h3>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-2">
+                            </div>
+                            <div class="col-md-8">
+
+                                <div class="alert alert-dismissible panel panel-default" style="margin-top: 5%; padding-left: 20px; padding-right: 20px; background-color: #9400D3; border-radius: 0px;">
+                                    <!--Panel-->
+                                    <div class="card">
+                                        <div class="card-header panel panel-default" style="margin-top: -5%; padding-top: 3%; background-color: white; border-radius: 0px; margin-bottom: 10px; color: black;">
+
+
+                                            <!-- Form-->
+
+                                            <h:form class="form-signin">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="row">
+                                                            <div class="col-md-1">
+                                                            </div>
+                                                            <div class="col-md-5">
+                                                                <h:panelGrid columns="2" cellpadding="5">
+                                                                    <label style="font-size: 14px;color: black; padding-left: 10px;">
+                                                                        Título:
+                                                                    </label>
+                                                                    <h:inputText class="form-control" style="font-size: 14px; color: black; margin-left: 10px;"/>
+                                                                    <label style="font-size: 14px;color: black;padding-left: 10px;">
+                                                                        Estado:
+                                                                    </label>
+                                                                    <h:selectOneMenu value="#" style="height: 40px; color: black;margin-left: 10px;" class="form-control">
+                                                                        <f:selectItem itemLabel="Acre" itemValue="ac"/>
+                                                                        <f:selectItem itemLabel="Alagoas" itemValue="al"/>
+                                                                        <f:selectItem itemLabel="Amapá" itemValue="ap"/>
+                                                                        <f:selectItem itemLabel="Amazonas" itemValue="am"/>
+                                                                        <f:selectItem itemLabel="Bahia" itemValue="ba"/>
+                                                                        <f:selectItem itemLabel="Ceará" itemValue="ce"/>
+                                                                        <f:selectItem itemLabel="Distrito Federal" itemValue="df"/>
+                                                                        <f:selectItem itemLabel="Espírito Santo" itemValue="es"/>
+                                                                        <f:selectItem itemLabel="Goiás" itemValue="go"/>
+                                                                        <f:selectItem itemLabel="Maranhão" itemValue="ma"/>
+                                                                        <f:selectItem itemLabel="Mato Grosso" itemValue="mt"/>
+                                                                        <f:selectItem itemLabel="Mato Grosso do Sul" itemValue="ms"/>
+                                                                        <f:selectItem itemLabel="Minas Gerais" itemValue="mg"/>
+                                                                        <f:selectItem itemLabel="Pará" itemValue="pa"/>
+                                                                        <f:selectItem itemLabel="Paraíba" itemValue="pb"/>
+                                                                        <f:selectItem itemLabel="Paraná" itemValue="pr"/>
+                                                                        <f:selectItem itemLabel="Pernambuco	" itemValue="pe"/>
+                                                                        <f:selectItem itemLabel="Piauí" itemValue="pi"/>
+                                                                        <f:selectItem itemLabel="Rio de Janeiro" itemValue="rj"/>
+                                                                        <f:selectItem itemLabel="Rio Grande do Norte" itemValue="rn"/>
+                                                                        <f:selectItem itemLabel="Rio Grande do Sul" itemValue="rs"/>
+                                                                        <f:selectItem itemLabel="Rondônia" itemValue="ro"/>
+                                                                        <f:selectItem itemLabel="Roraima" itemValue="rr"/>
+                                                                        <f:selectItem itemLabel="Santa Catarina" itemValue="sc"/>
+                                                                        <f:selectItem itemLabel="São Paulo" itemValue="sp"/>
+                                                                        <f:selectItem itemLabel="Sergipe" itemValue="se"/>
+                                                                        <f:selectItem itemLabel="Tocantins" itemValue="to"/>
+                                                                    </h:selectOneMenu>
+                                                                    <label style="font-size: 14px;color: black;padding-left: 10px;">
+                                                                        Bairro:
+                                                                    </label>
+                                                                    <h:inputText class="form-control" style="font-size: 14px; color: black;margin-left: 10px;"/>
+
+                                                                </h:panelGrid>
+                                                            </div>
+                                                            <div class="col-md-5">
+                                                                <h:panelGrid columns="2" cellpadding="5">
+                                                                    <label style="font-size: 14px;color: black; padding-left: 10px;">
+                                                                        Tipo:
+                                                                    </label>
+                                                                    <h:selectOneMenu value="#" style="height: 40px; color: black;margin-left: 10px;" class="form-control">
+                                                                        <f:selectItem itemLabel="Abandono" itemValue="1"/>
+                                                                        <f:selectItem itemLabel="Maus-tratos" itemValue="2"/>
+                                                                    </h:selectOneMenu>
+                                                                    <label style="font-size: 14px;color: black; padding-left: 10px;">
+                                                                        Cidade:
+                                                                    </label>
+                                                                    <h:inputText class="form-control" style="font-size: 14px; color: black; margin-left: 10px;"/>
+                                                                    <label style="font-size: 14px;color: black; padding-left: 10px;">
+                                                                        Descrição:
+                                                                    </label>
+                                                                    <h:inputTextarea rows="3" class="form-control" style="margin-left: 10px;"/>  
+                                                                </h:panelGrid>
+                                                            </div>
+                                                            <div class="col-md-1">
+                                                            </div>
+                                                            <div class="col-md-12" align="center">
+                                                                <br/>
+                                                                <h:button value="Denunciar" class="btn btn-default" style="background-color: #9400D3; color: white;border-radius: 0px;"/>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <br/>
+                                            </h:form>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="col-md-2">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $("#click").click(function() {
+                    $('html, body').animate({
+                scrollTop: $("#denuncia").offset().top
+                    }, 2000);
+                    });
+            });
+        </script>
+
+    </h:body>
+</html>
+

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:p="http://xmlns.jcp.org/jsf/passthrough">
+    <h:head>
+        <title>Help Pet - Login</title>
+
+        <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon"></link>
+
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css"></link>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"></link>
+
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-social.css"></link>
+
+
+
+        <link rel="stylesheet" type="text/css" href="css/helppet_css.css"></link>
+
+        <script src="js/jquery-1.11.0.min.js"></script>
+        <!-- <script src="js/bootstrap.min.js"></script> -->
+
+
+    </h:head>
+    <h:body style="background-image: url('imagens/fundo2.png');">
+
+        <!-- Menu -->
+        <div id="header">
+            <ui:insert name="header">
+                <!-- Import de página de menu -->
+                <ui:include src="menu.xhtml"/>
+            </ui:insert>
+        </div>
+
+        <br/><br/><br/><br/><br/>
+
+
+        <!-- Corpo da página -->
+        <div class="container-fluid">
+            <h3 class="text-center login-title laranja" style="color: #FF8C00;">Olá, Helper. Faça seu login</h3>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-4">
+                        </div>
+                        <div class="col-md-4" align="center">
+
+                            <div class="account-wall" align="center">
+                                <img class="profile-img" src="imagens/logo.png" alt="Logo Help Pet" height="100px;"/>
+                                <br/>
+                                <br/>
+
+                                <h:form class="form-signin">
+
+                                    <h:panelGrid columns="2" cellpadding="5">
+                                        <i class="material-icons">email</i>
+                                        <h:inputText   class="form-control" style="font-size: 15px; width: 280px; margin-left: 10px;" p:placeholder="E-mail"/>
+                                        <i class="material-icons">lock</i>
+                                        <h:inputSecret  class="form-control" style="font-size: 15px;width: 280px; margin-left: 10px;" p:placeholder="Senha"/>
+
+                                    </h:panelGrid>
+                                    <br/>
+                                    <h:button value="Entrar" style="height: 38px;width: 300px; background-color: #ffa812; color: white;border-radius: 0px;" class="btn btn-default"/>
+                                </h:form>
+                                <br/>
+                                <a class="btn btn-block btn-social btn-facebook" style="width: 300px;border-radius: 0px;" id="face">
+                                    <span class="fa"><img src="imagens/f.png" height="21px;"/></span> <div style="color: white;">Entre com o facebook </div>
+                                </a>
+
+                                <br/>
+                                <a href="cadastrarUsuario.jsf" style="font-size: 15px; text-decoration: none;">Quero ser um Helper</a>
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </h:body>
+</html>
+
