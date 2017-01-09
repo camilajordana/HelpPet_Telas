@@ -24,7 +24,7 @@ Repositório destinado às telas do sistema Help Pet
 ![cadastro de experiencia](https://cloud.githubusercontent.com/assets/9848597/21756891/8f95bbce-d605-11e6-93b2-d9ac85180637.png)
 
 
-## Tela de etalhamento de experiência
+## Tela detalhamento de experiência
 ![detalhamento de experiencia 1](https://cloud.githubusercontent.com/assets/9848597/21757302/5fc3d1c8-d60b-11e6-92cd-1138795dff65.png)
 ![detalhamento de experiencia 2](https://cloud.githubusercontent.com/assets/9848597/21757311/78e0460a-d60b-11e6-9ce7-8d2acebb5af0.png)
 
