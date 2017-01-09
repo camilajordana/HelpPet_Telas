@@ -28,3 +28,8 @@ Repositório destinado às telas do sistema Help Pet
 ![cadastro de denuncia 1](https://cloud.githubusercontent.com/assets/9848597/21756963/aeb6ebc6-d606-11e6-9619-733eacb9a3d9.png)
 ![cadastro de denuncia 2](https://cloud.githubusercontent.com/assets/9848597/21756970/d8ac9502-d606-11e6-91b7-e5f9915d23ca.png)
 ![cadastro de denuncia 3](https://cloud.githubusercontent.com/assets/9848597/21756978/eaa7c1dc-d606-11e6-96f0-b79689c4ba33.png)
+
+
+## Tela de listagem de denúncias
+![listagem de denuncias 1](https://cloud.githubusercontent.com/assets/9848597/21757023/6b1f94e8-d607-11e6-9c0f-a3eacdc8dc4f.png)
+![listagem de denuncias 2](https://cloud.githubusercontent.com/assets/9848597/21757031/8ee46458-d607-11e6-9ce5-0c898c78da98.png)
