@@ -67,3 +67,6 @@ Repositório destinado às telas do sistema Help Pet
 
 ## Tela de detalhamento de animal
 ![detalhamento de animal](https://cloud.githubusercontent.com/assets/9848597/21757475/2324b6bc-d60e-11e6-833f-f02707406e1d.png)
+
+## Tela para marcar encontro
+![marcar encontro](https://cloud.githubusercontent.com/assets/9848597/21757484/56b5ccc8-d60e-11e6-85d6-e0d424d29516.png)
