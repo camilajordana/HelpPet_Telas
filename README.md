@@ -54,3 +54,12 @@ Repositório destinado às telas do sistema Help Pet
 
 ## Pesquisar ONG (inclusive buscar por instituições com menor estoque)
 ![pesquisar ong](https://cloud.githubusercontent.com/assets/9848597/21757390/8a979cb2-d60c-11e6-8593-6a358b74a2f6.png)
+
+
+## Tela de cadastro de estoque (cadastra por tipo de estoque)
+![cadastro de estoque](https://cloud.githubusercontent.com/assets/9848597/21757415/06869d5a-d60d-11e6-8beb-8598423b6963.png)
+
+## Tela de cadastro de animal
+![cadastro de animal 1](https://cloud.githubusercontent.com/assets/9848597/21757435/834778b4-d60d-11e6-9c69-c535fad1cf04.png)
+![cadastro de animal 2](https://cloud.githubusercontent.com/assets/9848597/21757442/924553b8-d60d-11e6-815b-0ae9e03308f7.png)
+![cadastro de animal 3](https://cloud.githubusercontent.com/assets/9848597/21757447/a64c7b70-d60d-11e6-919f-17c3a935faaf.png)
