@@ -35,5 +35,5 @@ Repositório destinado às telas do sistema Help Pet
 ![listagem de denuncias 2](https://cloud.githubusercontent.com/assets/9848597/21757031/8ee46458-d607-11e6-9ce5-0c898c78da98.png)
 
 
-# Detalhamento da denúncia
+## Detalhamento da denúncia
 ![detalhamento da denuncia](https://cloud.githubusercontent.com/assets/9848597/21757051/dff94962-d607-11e6-8d25-cfc195110792.png)
