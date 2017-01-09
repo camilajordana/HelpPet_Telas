@@ -70,3 +70,60 @@ Repositório destinado às telas do sistema Help Pet
 
 ## Tela para marcar encontro
 ![marcar encontro](https://cloud.githubusercontent.com/assets/9848597/21757484/56b5ccc8-d60e-11e6-85d6-e0d424d29516.png)
+
+## Tela de adoção (informações sobre a adoção e encontro)
+![adocao 1](https://cloud.githubusercontent.com/assets/9848597/21757516/e07ab658-d60e-11e6-9d8b-a5d410caf088.png)
+![adocao 2](https://cloud.githubusercontent.com/assets/9848597/21757520/ef6e3ef0-d60e-11e6-8220-b68920f8f0f7.png)
+![adocao 3](https://cloud.githubusercontent.com/assets/9848597/21757523/fda72a4a-d60e-11e6-8a76-ed2aca9c2c6f.png)
+![adocao 4](https://cloud.githubusercontent.com/assets/9848597/21757531/0e2f1df0-d60f-11e6-937e-5c9b14bb414e.png)
+
+
+## Tela de listagem de animais para adoção
+![listagem de animais 1](https://cloud.githubusercontent.com/assets/9848597/21757561/69635a1a-d60f-11e6-93fb-215e5ec2ff75.png)
+![listagem de animais 2](https://cloud.githubusercontent.com/assets/9848597/21757565/7a5437f4-d60f-11e6-9cfb-2cd3a07aae4e.png)
+
+
+## Pesquisar animal
+![pesquisar animal](https://cloud.githubusercontent.com/assets/9848597/21757577/aaff300c-d60f-11e6-8363-a1287d9e1507.png)
+
+
+## Tela de minhas adoções (listagem de encontros)
+![minhas adocoes](https://cloud.githubusercontent.com/assets/9848597/21757588/da0132a6-d60f-11e6-9d68-fd45852c2ade.png)
+
+
+## Tela de cadastro de evento
+![cadastro de evento 1](https://cloud.githubusercontent.com/assets/9848597/21757618/4fbdd3fa-d610-11e6-9957-e01cfacb6a0d.png)
+![cadastro de evento 2](https://cloud.githubusercontent.com/assets/9848597/21757625/5ec34934-d610-11e6-940d-8cedbc47ae64.png)
+![cadastro de evento 3](https://cloud.githubusercontent.com/assets/9848597/21757629/6d76dbbc-d610-11e6-8923-b46ba149d2aa.png)
+
+
+## Detalhamento de evento
+![detalhamento de evento](https://cloud.githubusercontent.com/assets/9848597/21757652/b665ceb4-d610-11e6-9770-5e48e679d10f.png)
+
+
+## Tela de listagem de eventos
+![listagem de eventos 1](https://cloud.githubusercontent.com/assets/9848597/21757678/488610b0-d611-11e6-8874-46eb7e9bb969.png)
+![listagem de eventos 2](https://cloud.githubusercontent.com/assets/9848597/21757682/59dc63f0-d611-11e6-943d-4ffa9ae23846.png)
+
+
+## Pesquisar por evento
+![pesquisar evento](https://cloud.githubusercontent.com/assets/9848597/21757688/6ca5d836-d611-11e6-947e-4d33232cf481.png)
+
+
+## Tela de cadastro de anúncio
+![cadastrar anuncio 1](https://cloud.githubusercontent.com/assets/9848597/21757707/c18ea486-d611-11e6-8c27-f9729a04de2c.png)
+![cadastrar anuncio 2](https://cloud.githubusercontent.com/assets/9848597/21757712/ceed4b1e-d611-11e6-85fd-acb3169ff3e1.png)
+![cadastrar anuncio 3](https://cloud.githubusercontent.com/assets/9848597/21757719/dc08a208-d611-11e6-8d3a-1ea3c86fc6b8.png)
+
+
+## Detalhamento de anúncio
+![detalhamento de anuncio](https://cloud.githubusercontent.com/assets/9848597/21757737/06b5cc24-d612-11e6-91d1-eccff7b1a0e4.png)
+
+
+## Tela de listagem de anúncios
+![listagem de anuncio 1](https://cloud.githubusercontent.com/assets/9848597/21757766/58734370-d612-11e6-84be-5480206b6781.png)
+![listagem de anuncio 2](https://cloud.githubusercontent.com/assets/9848597/21757770/6b57ed10-d612-11e6-8d8a-fec6cdb35e21.png)
+
+## Pesquisar por anúncio
+![pesquisar anuncio](https://cloud.githubusercontent.com/assets/9848597/21757784/9daf1e6e-d612-11e6-94cb-362302a00ae9.png)
+
