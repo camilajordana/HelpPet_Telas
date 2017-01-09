@@ -24,6 +24,12 @@ Repositório destinado às telas do sistema Help Pet
 ![cadastro de experiencia](https://cloud.githubusercontent.com/assets/9848597/21756891/8f95bbce-d605-11e6-93b2-d9ac85180637.png)
 
 
+## Tela de etalhamento de experiência
+![detalhamento de experiencia 1](https://cloud.githubusercontent.com/assets/9848597/21757302/5fc3d1c8-d60b-11e6-92cd-1138795dff65.png)
+![detalhamento de experiencia 2](https://cloud.githubusercontent.com/assets/9848597/21757311/78e0460a-d60b-11e6-9ce7-8d2acebb5af0.png)
+
+
+
 ## Tela de cadastro de denúncia
 ![cadastro de denuncia 1](https://cloud.githubusercontent.com/assets/9848597/21756963/aeb6ebc6-d606-11e6-9619-733eacb9a3d9.png)
 ![cadastro de denuncia 2](https://cloud.githubusercontent.com/assets/9848597/21756970/d8ac9502-d606-11e6-91b7-e5f9915d23ca.png)
@@ -37,3 +43,6 @@ Repositório destinado às telas do sistema Help Pet
 
 ## Detalhamento da denúncia
 ![detalhamento da denuncia](https://cloud.githubusercontent.com/assets/9848597/21757051/dff94962-d607-11e6-8d25-cfc195110792.png)
+
+## Pesquisar denúncia
+![pesquisar denuncia](https://cloud.githubusercontent.com/assets/9848597/21757257/e69f5a9c-d60a-11e6-842d-6bb953c66c27.png)
