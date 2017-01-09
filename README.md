@@ -63,3 +63,7 @@ Repositório destinado às telas do sistema Help Pet
 ![cadastro de animal 1](https://cloud.githubusercontent.com/assets/9848597/21757435/834778b4-d60d-11e6-9c69-c535fad1cf04.png)
 ![cadastro de animal 2](https://cloud.githubusercontent.com/assets/9848597/21757442/924553b8-d60d-11e6-815b-0ae9e03308f7.png)
 ![cadastro de animal 3](https://cloud.githubusercontent.com/assets/9848597/21757447/a64c7b70-d60d-11e6-919f-17c3a935faaf.png)
+
+
+## Tela de detalhamento de animal
+![detalhamento de animal](https://cloud.githubusercontent.com/assets/9848597/21757475/2324b6bc-d60e-11e6-833f-f02707406e1d.png)
