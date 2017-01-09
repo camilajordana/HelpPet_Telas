@@ -46,3 +46,11 @@ Repositório destinado às telas do sistema Help Pet
 
 ## Pesquisar denúncia
 ![pesquisar denuncia](https://cloud.githubusercontent.com/assets/9848597/21757257/e69f5a9c-d60a-11e6-842d-6bb953c66c27.png)
+
+
+## Tela de listagem de ONGs
+![listagem de ongs 1](https://cloud.githubusercontent.com/assets/9848597/21757373/36a6405e-d60c-11e6-8e09-84155aabf1aa.png)
+![listagem de ongs 2](https://cloud.githubusercontent.com/assets/9848597/21757375/48bce590-d60c-11e6-9b1a-bf833a032142.png)
+
+## Pesquisar ONG (inclusive buscar por instituições com menor estoque)
+![pesquisar ong](https://cloud.githubusercontent.com/assets/9848597/21757390/8a979cb2-d60c-11e6-8593-6a358b74a2f6.png)
