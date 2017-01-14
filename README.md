@@ -11,7 +11,7 @@ Repositório destinado às telas do sistema Help Pet
 
 
 ## Menu do usuário
-![menu do usuario](https://cloud.githubusercontent.com/assets/9848597/21756772/6903bdc2-d604-11e6-97ee-d37d2743d068.png)
+![menu do usuario](https://cloud.githubusercontent.com/assets/9848597/21955414/885b73f6-da49-11e6-8e5f-13b059e43699.png)
 
 
 ## Tela de listagem de experiências (Espaço Helper)
@@ -55,9 +55,6 @@ Repositório destinado às telas do sistema Help Pet
 ## Pesquisar ONG (inclusive buscar por instituições com menor estoque)
 ![pesquisar ong](https://cloud.githubusercontent.com/assets/9848597/21757390/8a979cb2-d60c-11e6-8593-6a358b74a2f6.png)
 
-
-## Cadastro de estoque (cadastra por tipo de estoque)
-![cadastro de estoque](https://cloud.githubusercontent.com/assets/9848597/21955035/de22ef02-da40-11e6-9713-fe209f6f81f1.png)
 
 ## Tela de cadastro de animal
 ![cadastro de animal 1](https://cloud.githubusercontent.com/assets/9848597/21757435/834778b4-d60d-11e6-9c69-c535fad1cf04.png)
@@ -126,4 +123,87 @@ Repositório destinado às telas do sistema Help Pet
 
 ## Pesquisar por anúncio
 ![pesquisar anuncio](https://cloud.githubusercontent.com/assets/9848597/21757784/9daf1e6e-d612-11e6-94cb-362302a00ae9.png)
+
+## Perfil do usuário Helper
+![perfil do usuario 1](https://cloud.githubusercontent.com/assets/9848597/21955461/5485d35e-da4a-11e6-8a94-285f2ea039ef.png)
+![perfil do usuario 2](https://cloud.githubusercontent.com/assets/9848597/21955468/6b4acda6-da4a-11e6-919f-58d46e128b52.png)
+![perfil do usuario 3](https://cloud.githubusercontent.com/assets/9848597/21955473/7cfa98f6-da4a-11e6-9748-6d610d172460.png)
+
+## Tela para editar perfil do usuário Helper
+![editar perfil do usuario](https://cloud.githubusercontent.com/assets/9848597/21955486/d335957c-da4a-11e6-92d4-f5f95563fe82.png)
+
+## Tela de Minhas Experiências
+![minhas experiencias 1](https://cloud.githubusercontent.com/assets/9848597/21955508/564bf5be-da4b-11e6-9675-4c68399254d5.png)
+![minhas experiencias 2](https://cloud.githubusercontent.com/assets/9848597/21955516/6bfeed80-da4b-11e6-96a7-5865ad73684c.png)
+![minhas experiencias 3](https://cloud.githubusercontent.com/assets/9848597/21955521/8b7a17e8-da4b-11e6-9b7a-52442e68db9f.png)
+
+
+## Tela de detalhamento da Minha Experiência
+![detalhamento da minha experiencia 1](https://cloud.githubusercontent.com/assets/9848597/21955541/f7993dbe-da4b-11e6-9ce1-2cfe20b54b69.png)
+![detalhamento da minha experiencia 2](https://cloud.githubusercontent.com/assets/9848597/21955546/0e89307e-da4c-11e6-9f4c-53a190ef0241.png)
+
+
+## Tela para editar experiência
+![editar experiencia](https://cloud.githubusercontent.com/assets/9848597/21955566/643a5156-da4c-11e6-9944-c19e47cc3f35.png)
+
+
+## Tela de Meus Animais
+![meus animais 1](https://cloud.githubusercontent.com/assets/9848597/21955589/fe2794fe-da4c-11e6-8030-ae194ee96f22.png)
+![meus animais 2](https://cloud.githubusercontent.com/assets/9848597/21955591/1079a3e0-da4d-11e6-8277-77681d636ca7.png)
+
+
+## Detalhamento de Meus Animais
+![detalhamento de meus animais](https://cloud.githubusercontent.com/assets/9848597/21955851/0d141e1a-da52-11e6-8155-58b560362848.png)
+
+
+## Tela para edição do animal
+![editar animal 1](https://cloud.githubusercontent.com/assets/9848597/21955614/9d310d1e-da4d-11e6-9a5e-7771d34b6460.png)
+![editar animal 2](https://cloud.githubusercontent.com/assets/9848597/21955618/b4727242-da4d-11e6-88a8-78e0fa18d052.png)
+
+
+
+## Tela de Meus Eventos
+![meus eventos 1](https://cloud.githubusercontent.com/assets/9848597/21955642/257b464e-da4e-11e6-91c3-2e5a5993222c.png)
+![meus eventos 2](https://cloud.githubusercontent.com/assets/9848597/21955649/37995c94-da4e-11e6-91c3-f03e50246df6.png)
+
+
+## Detalhamento de Meus Eventos
+![detalhamento de meu evento](https://cloud.githubusercontent.com/assets/9848597/21955665/783db65a-da4e-11e6-85c3-e9787fb3a96b.png)
+
+
+## Tela de edição de evento
+![editar evento 1](https://cloud.githubusercontent.com/assets/9848597/21955680/c8434570-da4e-11e6-9c4f-67b68c4f69f3.png)
+![editar evento 2](https://cloud.githubusercontent.com/assets/9848597/21955682/da52c574-da4e-11e6-9b7f-d7db4305366f.png)
+
+
+## Tela de Meus Anúncios
+![meus anuncios 1](https://cloud.githubusercontent.com/assets/9848597/21955712/33fe08cc-da4f-11e6-8808-cd5441474267.png)
+![meus anuncios 2](https://cloud.githubusercontent.com/assets/9848597/21955718/466922a8-da4f-11e6-9a9a-3b64036b76f0.png)
+
+
+## Detalhamento de Meus Anúncios
+![detalhamento de meus anuncios](https://cloud.githubusercontent.com/assets/9848597/21955729/846843ae-da4f-11e6-8878-257ca1af5273.png)
+
+
+## Tela de edição de anúncio
+![editar anuncio](https://cloud.githubusercontent.com/assets/9848597/21955742/c70f72d6-da4f-11e6-876f-3d95672f8ebc.png)
+
+
+## Perfil da ONG
+![perfil ong 1](https://cloud.githubusercontent.com/assets/9848597/21955765/446f20d2-da50-11e6-9886-452deb6513d9.png)
+![perfil ong 2](https://cloud.githubusercontent.com/assets/9848597/21955767/51e1cabc-da50-11e6-808b-d397e36a8047.png)
+![perfil ong 3](https://cloud.githubusercontent.com/assets/9848597/21955770/5cfe9f88-da50-11e6-8a39-c334d037bf1d.png)
+
+
+## Cadastro de estoque (cadastra por tipo de estoque)
+![cadastro de estoque](https://cloud.githubusercontent.com/assets/9848597/21955035/de22ef02-da40-11e6-9713-fe209f6f81f1.png)
+
+
+## Tela de edição de estoque
+![editar estoque 1](https://cloud.githubusercontent.com/assets/9848597/21955790/d1105c90-da50-11e6-9a38-18ff4f93d83a.png)
+![editar estoque 2](https://cloud.githubusercontent.com/assets/9848597/21955797/e26ff05e-da50-11e6-9311-cde3e3e06948.png)
+
+
+## Tela de edição do perfil da ONG
+![editar perfil da ong](https://cloud.githubusercontent.com/assets/9848597/21955810/11ed2da6-da51-11e6-88ae-3be3a5685bd7.png)
 
