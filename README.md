@@ -1,8 +1,6 @@
 # HelpPet_Telas
 Repositório destinado às telas do sistema Help Pet para a disciplina do PDS Distribuído (TADS-IFRN).
 
-Telas: Camila Jordana e Helora Dana 
-
 Última atualização 14/01/2017
 
 
