@@ -56,8 +56,8 @@ Repositório destinado às telas do sistema Help Pet
 ![pesquisar ong](https://cloud.githubusercontent.com/assets/9848597/21757390/8a979cb2-d60c-11e6-8593-6a358b74a2f6.png)
 
 
-## Tela de cadastro de estoque (cadastra por tipo de estoque)
-![cadastro de estoque](https://cloud.githubusercontent.com/assets/9848597/21757415/06869d5a-d60d-11e6-8beb-8598423b6963.png)
+## Cadastro de estoque (cadastra por tipo de estoque)
+![cadastro de estoque](https://cloud.githubusercontent.com/assets/9848597/21955035/de22ef02-da40-11e6-9713-fe209f6f81f1.png)
 
 ## Tela de cadastro de animal
 ![cadastro de animal 1](https://cloud.githubusercontent.com/assets/9848597/21757435/834778b4-d60d-11e6-9c69-c535fad1cf04.png)
@@ -88,7 +88,7 @@ Repositório destinado às telas do sistema Help Pet
 
 
 ## Tela de minhas adoções (listagem de encontros)
-![minhas adocoes](https://cloud.githubusercontent.com/assets/9848597/21757588/da0132a6-d60f-11e6-9d68-fd45852c2ade.png)
+![minhas adocoes](https://cloud.githubusercontent.com/assets/9848597/21955073/c2b1d656-da41-11e6-8d72-163a1ef15a65.png)
 
 
 ## Tela de cadastro de evento
