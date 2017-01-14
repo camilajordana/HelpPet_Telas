@@ -2,9 +2,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://xmlns.jcp.org/jsf/html"
-      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
     <h:head>
-        <title>Help Pet - Estoque</title>
+        <title>Help Pet - Editar evento</title>
 
         <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon"></link>
 
@@ -26,7 +27,7 @@
             </ui:insert>
         </div>
 
-        <br/>
+
         <br/>
         <br/>
         <br/>
@@ -34,7 +35,8 @@
         <br/>
 
 
-        <!-- Form de cadastro de estoque -->
+
+        <!-- Form  -->
         <div class="container-fluid">
             <div class="row">
 
@@ -42,35 +44,38 @@
                 </div>
                 <div class="col-md-8">
 
-                    <div class="alert alert-dismissible panel panel-default" style="margin-top: 5%; padding-left: 20px; padding-right: 20px; background-color: #FFB772; border-radius: 0px;">
+                    <div class="alert alert-dismissible panel panel-default" style="margin-top: 5%; padding-left: 20px; padding-right: 20px; background-color: #87CEFF; border-radius: 0px;">
                         <!--Panel-->
                         <div class="card">
                             <div class="card-header panel panel-default" style="margin-top: -5%; padding-top: 3%; background-color: white; border-radius: 0px; margin-bottom: 10px; color: black;">
 
                                 <!-- Conteúdo -->
                                 <div align="center" style="margin-left: 40px; margin-right: 40px;">
-                                    <h4 class="modal-title">Cadastro de estoque</h4>
+                                    <h4 class="modal-title">Editar evento</h4>
                                     <hr/>
+
                                 </div>
 
                                 <h:form>
                                     <div class="container-fluid">
                                         <div class="row">
                                             <div class="col-md-12" align="center">
-                                                <label style="font-size: 16px;color: #1E90FF; padding-top: 30px;">
-                                                    Tipo 1  
-                                                </label>
+                                                <div class="text-center" >
+                                                    <img src="imagens/evento.png" height="120px" width="160px" style="border-radius: 0px;" alt="Foto do evento"/>
+                                                    <h6>Atualizar foto...</h6>
+                                                    <h:inputFile   class="text-center center-block well well-sm"/>
+                                                </div>
                                             </div>
                                             <div class="col-md-12">
                                                 <div class="row">
                                                     <div class="col-md-2">
                                                     </div>
-                                                    <div class="col-md-3">
-                                                        <label style="font-size: 14px;color: black; padding-left: 15px;padding-top: 10px;">
-                                                            Necessidade:  
+                                                    <div class="col-md-2">
+                                                        <label style="font-size: 14px;color: black; padding-left: 15px;padding-top: 5px;">
+                                                            Nome:  
                                                         </label>
                                                     </div>
-                                                    <div class="col-md-5">
+                                                    <div class="col-md-6">
                                                         <h:inputText class="form-control" style="width: 100%;font-size: 14px;"/>
                                                     </div>
                                                     <div class="col-md-2">
@@ -81,12 +86,12 @@
                                                 <div class="row">
                                                     <div class="col-md-2">
                                                     </div>
-                                                    <div class="col-md-3">
-                                                        <label style="font-size: 14px;color: black; padding-left: 15px;padding-top: 10px;">
-                                                            Necessidade diária:  
+                                                    <div class="col-md-2">
+                                                        <label style="font-size: 14px;color: black; padding-left: 15px;padding-top: 5px;">
+                                                            Data:  
                                                         </label>
                                                     </div>
-                                                    <div class="col-md-5">
+                                                    <div class="col-md-6">
                                                         <h:inputText class="form-control" style="width: 100%;font-size: 14px;"/>
                                                     </div>
                                                     <div class="col-md-2">
@@ -97,51 +102,42 @@
                                                 <div class="row">
                                                     <div class="col-md-2">
                                                     </div>
-                                                    <div class="col-md-3">
-                                                        <label style="font-size: 14px;color: black; padding-left: 15px;padding-top: 10px;">
-                                                            Necessidade atual:  
+                                                    <div class="col-md-2">
+                                                        <label style="font-size: 14px;color: black; padding-left: 15px;padding-top: 5px;">
+                                                            Estado:  
                                                         </label>
                                                     </div>
-                                                    <div class="col-md-5">
-                                                        <h:inputText class="form-control" style="width: 100%;font-size: 14px;"/>
-                                                    </div>
-                                                    <div class="col-md-2">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="col-md-12" align="center">
-                                                <label style="font-size: 16px;color: #1E90FF; padding-top: 30px;">
-                                                    Tipo 2  
-                                                </label>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="row">
-                                                    <div class="col-md-2">
-                                                    </div>
-                                                    <div class="col-md-3">
-                                                        <label style="font-size: 14px;color: black; padding-left: 15px;padding-top: 10px;">
-                                                            Necessidade:  
-                                                        </label>
-                                                    </div>
-                                                    <div class="col-md-5">
-                                                        <h:inputText class="form-control" style="width: 100%;font-size: 14px;"/>
-                                                    </div>
-                                                    <div class="col-md-2">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="row">
-                                                    <div class="col-md-2">
-                                                    </div>
-                                                    <div class="col-md-3">
-                                                        <label style="font-size: 14px;color: black; padding-left: 15px;padding-top: 10px;">
-                                                            Necessidade diária:  
-                                                        </label>
-                                                    </div>
-                                                    <div class="col-md-5">
-                                                        <h:inputText class="form-control" style="width: 100%;font-size: 14px;"/>
+                                                    <div class="col-md-6" style="padding-left: 15px;">
+                                                        <h:selectOneMenu value="#" style="height: 40px; color: black;font-size: 14px; width: 100%;" class="form-control">
+                                                            <f:selectItem itemLabel="Acre" itemValue="ac"/>
+                                                            <f:selectItem itemLabel="Alagoas" itemValue="al"/>
+                                                            <f:selectItem itemLabel="Amapá" itemValue="ap"/>
+                                                            <f:selectItem itemLabel="Amazonas" itemValue="am"/>
+                                                            <f:selectItem itemLabel="Bahia" itemValue="ba"/>
+                                                            <f:selectItem itemLabel="Ceará" itemValue="ce"/>
+                                                            <f:selectItem itemLabel="Distrito Federal" itemValue="df"/>
+                                                            <f:selectItem itemLabel="Espírito Santo" itemValue="es"/>
+                                                            <f:selectItem itemLabel="Goiás" itemValue="go"/>
+                                                            <f:selectItem itemLabel="Maranhão" itemValue="ma"/>
+                                                            <f:selectItem itemLabel="Mato Grosso" itemValue="mt"/>
+                                                            <f:selectItem itemLabel="Mato Grosso do Sul" itemValue="ms"/>
+                                                            <f:selectItem itemLabel="Minas Gerais" itemValue="mg"/>
+                                                            <f:selectItem itemLabel="Pará" itemValue="pa"/>
+                                                            <f:selectItem itemLabel="Paraíba" itemValue="pb"/>
+                                                            <f:selectItem itemLabel="Paraná" itemValue="pr"/>
+                                                            <f:selectItem itemLabel="Pernambuco	" itemValue="pe"/>
+                                                            <f:selectItem itemLabel="Piauí" itemValue="pi"/>
+                                                            <f:selectItem itemLabel="Rio de Janeiro" itemValue="rj"/>
+                                                            <f:selectItem itemLabel="Rio Grande do Norte" itemValue="rn"/>
+                                                            <f:selectItem itemLabel="Rio Grande do Sul" itemValue="rs"/>
+                                                            <f:selectItem itemLabel="Rondônia" itemValue="ro"/>
+                                                            <f:selectItem itemLabel="Roraima" itemValue="rr"/>
+                                                            <f:selectItem itemLabel="Santa Catarina" itemValue="sc"/>
+                                                            <f:selectItem itemLabel="São Paulo" itemValue="sp"/>
+                                                            <f:selectItem itemLabel="Sergipe" itemValue="se"/>
+                                                            <f:selectItem itemLabel="Tocantins" itemValue="to"/>
+                                                        </h:selectOneMenu>   
+
                                                     </div>
                                                     <div class="col-md-2">
                                                     </div>
@@ -151,35 +147,12 @@
                                                 <div class="row">
                                                     <div class="col-md-2">
                                                     </div>
-                                                    <div class="col-md-3">
-                                                        <label style="font-size: 14px;color: black; padding-left: 15px;padding-top: 10px;">
-                                                            Necessidade atual:  
+                                                    <div class="col-md-2">
+                                                        <label style="font-size: 14px;color: black; padding-left: 15px;padding-top: 5px;">
+                                                            Cidade:  
                                                         </label>
                                                     </div>
-                                                    <div class="col-md-5">
-                                                        <h:inputText class="form-control" style="width: 100%;font-size: 14px;"/>
-                                                    </div>
-                                                    <div class="col-md-2">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                            
-                                            <div class="col-md-12" align="center">
-                                                <label style="font-size: 16px;color: #1E90FF; padding-top: 30px;">
-                                                    Tipo 3  
-                                                </label>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="row">
-                                                    <div class="col-md-2">
-                                                    </div>
-                                                    <div class="col-md-3">
-                                                        <label style="font-size: 14px;color: black; padding-left: 15px;padding-top: 10px;">
-                                                            Necessidade:  
-                                                        </label>
-                                                    </div>
-                                                    <div class="col-md-5">
+                                                    <div class="col-md-6">
                                                         <h:inputText class="form-control" style="width: 100%;font-size: 14px;"/>
                                                     </div>
                                                     <div class="col-md-2">
@@ -190,12 +163,12 @@
                                                 <div class="row">
                                                     <div class="col-md-2">
                                                     </div>
-                                                    <div class="col-md-3">
-                                                        <label style="font-size: 14px;color: black; padding-left: 15px;padding-top: 10px;">
-                                                            Necessidade diária:  
+                                                    <div class="col-md-2">
+                                                        <label style="font-size: 14px;color: black; padding-left: 15px;padding-top: 5px;">
+                                                            Bairro:  
                                                         </label>
                                                     </div>
-                                                    <div class="col-md-5">
+                                                    <div class="col-md-6">
                                                         <h:inputText class="form-control" style="width: 100%;font-size: 14px;"/>
                                                     </div>
                                                     <div class="col-md-2">
@@ -206,35 +179,12 @@
                                                 <div class="row">
                                                     <div class="col-md-2">
                                                     </div>
-                                                    <div class="col-md-3">
-                                                        <label style="font-size: 14px;color: black; padding-left: 15px;padding-top: 10px;">
-                                                            Necessidade atual:  
+                                                    <div class="col-md-2">
+                                                        <label style="font-size: 14px;color: black; padding-left: 15px;padding-top: 5px;">
+                                                            Rua:  
                                                         </label>
                                                     </div>
-                                                    <div class="col-md-5">
-                                                        <h:inputText class="form-control" style="width: 100%;font-size: 14px;"/>
-                                                    </div>
-                                                    <div class="col-md-2">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                            
-                                            <div class="col-md-12" align="center">
-                                                <label style="font-size: 16px;color: #1E90FF; padding-top: 30px;">
-                                                    Tipo 4
-                                                </label>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="row">
-                                                    <div class="col-md-2">
-                                                    </div>
-                                                    <div class="col-md-3">
-                                                        <label style="font-size: 14px;color: black; padding-left: 15px;padding-top: 10px;">
-                                                            Necessidade:  
-                                                        </label>
-                                                    </div>
-                                                    <div class="col-md-5">
+                                                    <div class="col-md-6">
                                                         <h:inputText class="form-control" style="width: 100%;font-size: 14px;"/>
                                                     </div>
                                                     <div class="col-md-2">
@@ -245,12 +195,12 @@
                                                 <div class="row">
                                                     <div class="col-md-2">
                                                     </div>
-                                                    <div class="col-md-3">
-                                                        <label style="font-size: 14px;color: black; padding-left: 15px;padding-top: 10px;">
-                                                            Necessidade diária:  
+                                                    <div class="col-md-2">
+                                                        <label style="font-size: 14px;color: black; padding-left: 15px;padding-top: 5px;">
+                                                            Complemento:  
                                                         </label>
                                                     </div>
-                                                    <div class="col-md-5">
+                                                    <div class="col-md-6">
                                                         <h:inputText class="form-control" style="width: 100%;font-size: 14px;"/>
                                                     </div>
                                                     <div class="col-md-2">
@@ -261,24 +211,37 @@
                                                 <div class="row">
                                                     <div class="col-md-2">
                                                     </div>
-                                                    <div class="col-md-3">
-                                                        <label style="font-size: 14px;color: black; padding-left: 15px;padding-top: 10px;">
-                                                            Necessidade atual:  
+                                                    <div class="col-md-2">
+                                                        <label style="font-size: 14px;color: black; padding-left: 15px;padding-top: 5px;">
+                                                            Horário:  
                                                         </label>
                                                     </div>
-                                                    <div class="col-md-5">
+                                                    <div class="col-md-6">
                                                         <h:inputText class="form-control" style="width: 100%;font-size: 14px;"/>
                                                     </div>
                                                     <div class="col-md-2">
                                                     </div>
                                                 </div>
                                             </div>
-                                            
-                                            
-                                            
+                                            <div class="col-md-12">
+                                                <div class="row">
+                                                    <div class="col-md-2">
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <label style="font-size: 14px;color: black; padding-left: 15px;padding-top: 5px;">
+                                                            Descrição:  
+                                                        </label>
+                                                    </div>
+                                                    <div class="col-md-6" style="padding-left: 15px;">
+                                                        <h:inputTextarea rows="3" class="form-control" style=" width: 100%; font-size: 14px;"/>  
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                    </div>
+                                                </div>
+                                            </div>
                                             <div class="col-md-12" align="center" style="margin-bottom: 30px;">
                                                 <br/>
-                                                <button class="btn btn-default" style="background-color: #FFB772; color: white;border-radius: 0px; " data-dismiss="modal">Cadastrar</button>
+                                                    <h:commandButton value="Salvar" class="btn btn-success" style=" color: white;border-radius: 0px; "/>
                                                 <br/>
                                             </div>
                                         </div>
@@ -296,6 +259,8 @@
 
             </div>
         </div>
+
+
 
     </h:body>
 </html>
