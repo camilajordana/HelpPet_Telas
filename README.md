@@ -153,7 +153,7 @@ Repositório destinado às telas do sistema Help Pet
 
 
 ## Detalhamento de Meus Animais
-![detalhamento de meus animais](https://cloud.githubusercontent.com/assets/9848597/21955596/40e64830-da4d-11e6-9d4c-f5c4d63ccd1c.png)
+![detalhamento de meus animais](https://cloud.githubusercontent.com/assets/9848597/21955851/0d141e1a-da52-11e6-8155-58b560362848.png)
 
 
 ## Tela para edição do animal
