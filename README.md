@@ -127,4 +127,24 @@ Repositório destinado às telas do sistema Help Pet
 ## Pesquisar por anúncio
 ![pesquisar anuncio](https://cloud.githubusercontent.com/assets/9848597/21757784/9daf1e6e-d612-11e6-94cb-362302a00ae9.png)
 
-## Perfil do usuário
+## Perfil do usuário Helper
+![perfil do usuario 1](https://cloud.githubusercontent.com/assets/9848597/21955461/5485d35e-da4a-11e6-8a94-285f2ea039ef.png)
+![perfil do usuario 2](https://cloud.githubusercontent.com/assets/9848597/21955468/6b4acda6-da4a-11e6-919f-58d46e128b52.png)
+![perfil do usuario 3](https://cloud.githubusercontent.com/assets/9848597/21955473/7cfa98f6-da4a-11e6-9748-6d610d172460.png)
+
+## Tela para editar perfil do usuário Helper
+![editar perfil do usuario](https://cloud.githubusercontent.com/assets/9848597/21955486/d335957c-da4a-11e6-92d4-f5f95563fe82.png)
+
+## Tela de Minhas Experiências
+![minhas experiencias 1](https://cloud.githubusercontent.com/assets/9848597/21955508/564bf5be-da4b-11e6-9675-4c68399254d5.png)
+![minhas experiencias 2](https://cloud.githubusercontent.com/assets/9848597/21955516/6bfeed80-da4b-11e6-96a7-5865ad73684c.png)
+![minhas experiencias 3](https://cloud.githubusercontent.com/assets/9848597/21955521/8b7a17e8-da4b-11e6-9b7a-52442e68db9f.png)
+
+
+## Tela de detalhamento da Minha Experiência
+![detalhamento da minha experiencia 1](https://cloud.githubusercontent.com/assets/9848597/21955541/f7993dbe-da4b-11e6-9ce1-2cfe20b54b69.png)
+![detalhamento da minha experiencia 2](https://cloud.githubusercontent.com/assets/9848597/21955546/0e89307e-da4c-11e6-9f4c-53a190ef0241.png)
+
+
+## Tela para editar experiência
+![editar experiencia](https://cloud.githubusercontent.com/assets/9848597/21955566/643a5156-da4c-11e6-9944-c19e47cc3f35.png)
