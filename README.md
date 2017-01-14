@@ -88,7 +88,7 @@ Repositório destinado às telas do sistema Help Pet
 
 
 ## Tela de minhas adoções (listagem de encontros)
-![minhas adocoes](https://cloud.githubusercontent.com/assets/9848597/21757588/da0132a6-d60f-11e6-9d68-fd45852c2ade.png)
+![minhas adocoes](https://cloud.githubusercontent.com/assets/9848597/21955073/c2b1d656-da41-11e6-8d72-163a1ef15a65.png)
 
 
 ## Tela de cadastro de evento
