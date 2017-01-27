@@ -207,5 +207,6 @@ Repositório destinado às telas do sistema Help Pet para a disciplina do PDS Di
 
 
 ## Tela de edição do perfil da ONG
-![editar perfil da ong](https://cloud.githubusercontent.com/assets/9848597/21955810/11ed2da6-da51-11e6-88ae-3be3a5685bd7.png)
+![editarong](https://cloud.githubusercontent.com/assets/9848597/22357134/fde35c5e-e414-11e6-97f5-3972f534f94e.png)
+
 
