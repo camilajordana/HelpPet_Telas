@@ -4,21 +4,20 @@
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
     <h:head>
-        <title>Help Pet - Editar ONG</title>
-
+        <title>Help Pet - Editar perfil</title>
 
         <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon"></link>
 
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css"></link>
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"></link>
+        <link type="text/css" rel="stylesheet" href="estilo/bootstrap.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="estilo/bootstrap.min.css"  media="screen,projection"/>
 
-        <link rel="stylesheet" type="text/css" href="css/helppet_css.css"></link>
+        <link type="text/css" rel="stylesheet" href="estilo/helppet_css.css"  media="screen,projection"/>
+
 
         <script src="js/jquery-1.11.0.min.js"></script>
         <!-- <script src="js/bootstrap.min.js"></script> -->
     </h:head>
     <h:body>
-
         <!-- Menu -->
         <div id="header">
             <ui:insert name="header">
@@ -43,7 +42,7 @@
                 </div>
                 <div class="col-md-8">
 
-                    <div class="alert alert-dismissible panel panel-default" style="margin-top: 5%; padding-left: 20px; padding-right: 20px; background-color: #FFB772; border-radius: 0px;">
+                    <div class="alert alert-dismissible panel panel-default" style="margin-top: 5%; padding-left: 20px; padding-right: 20px; background-color: #b48cd0; border-radius: 0px;">
                         <!--Panel-->
                         <div class="card">
                             <div class="card-header panel panel-default" style="margin-top: -5%; padding-top: 3%; background-color: white; border-radius: 0px; margin-bottom: 10px; color: black;">
@@ -60,7 +59,7 @@
                                         <div class="row">
                                             <div class="col-md-12" align="center">
                                                 <div class="text-center" >
-                                                    <img src="imagens/ONG.jpg" height="120px" width="160px"  style="border-radius: 0px;" alt="Foto da ONG"/>
+                                                    <img src="imagens/petshop.jpg" height="120px" width="160px"  style="border-radius: 0px;" alt="Foto do usuario"/>
                                                     <h6>Atualizar foto...</h6>
                                                     <h:inputFile   class="text-center center-block well well-sm"/>
                                                 </div>
@@ -77,6 +76,12 @@
                                                     <div class="col-md-6">
                                                         <h:inputText class="form-control" style="width: 100%;font-size: 14px;"/>
                                                     </div>
+                                                    <div class="col-md-2">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="row">
                                                     <div class="col-md-2">
                                                     </div>
                                                 </div>
@@ -125,8 +130,6 @@
 
             </div>
         </div>
-
-
     </h:body>
 </html>
 

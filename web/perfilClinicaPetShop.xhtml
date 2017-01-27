@@ -18,7 +18,8 @@
         <!-- <script src="js/bootstrap.min.js"></script> -->
     </h:head>
     <h:body style="background-color: #F0F0F0;">
-
+        
+        
         <!-- Menu -->
         <div id="header">
             <ui:insert name="header">
@@ -28,13 +29,13 @@
         </div>
 
         <div align="center" >        
-            <div style="background: #ffa812; height: 260px;">
+            <div style="background: #b48cd0; height: 260px;">
 
             </div>
             <div class="panel panel-default divPerfil" align="left">
-                <img src="imagens/foto.jpg" style="position: relative; float: left;" alt="Imagem do usuário" class="fotoPerfil panel" />
+                <img src="imagens/petshop.jpg"  style="position: relative; float: left;" alt="Imagem do usuário" class="fotoPerfil panel" />
                 <div class="tituloNomeUsuario">
-                    <h3 style="padding-top: 2%;">Camila Jordana</h3>
+                    <h3 style="padding-top: 2%;">RN Pet</h3>
                 </div>
             </div>
         </div>
@@ -51,22 +52,11 @@
                         <div class="col-md-12 panel panel-default cardsLateralEsquerda">
                             <h5><i class="material-icons">info</i> Informações</h5>
                             <hr/>
-                            <p class="itensPerfil">E-mail: contato@helppet.com</p>
+                            <p class="itensPerfil">E-mail: contato@rnpet.com</p>
+                            <p class="itensPerfil">Telefone: 0000-0000</p>
+                            <p class="itensPerfil">Local: Natal/RN</p>
                             <div style="margin-bottom: 15px;">
-                                <a href="editarPerfil.jsf" class="btn btn-primary btn-xs" style="margin-left: 0%">Editar</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12 panel panel-default cardsLateralEsquerda">
-                            <h5><i class="material-icons">event</i> Encontros</h5>
-                            <hr/>
-                            <p class="itensPerfil"><strong>Último encontro marcardo</strong></p>
-                            <p class="itensPerfil">Animal: Gato 1</p>
-                            <p class="itensPerfil">Local: Natal/RN - Tirol</p>
-                            <p class="itensPerfil">Data: 00/00/0000 - Hora: 00:00</p>
-                            <div style="margin-bottom: 15px;">
-                                <a href="minhasAdocoes.jsf" class="btn btn-warning btn-xs" style="margin-left: 0%">Ver mais</a>
+                                <a href="editarClinicaPetShop.jsf" class="btn btn-primary btn-xs" style="margin-left: 0%">Editar</a>
                             </div>
                         </div>
                     </div>
@@ -78,7 +68,7 @@
                             <p class="itensPerfil">Nome: Minha Experiência</p>
                             <p class="itensPerfil">Data: 00/00/0000</p>
                             <div style="margin-bottom: 15px;">
-                                <a href="minhasExperiencias.jsf" class="btn btn-warning btn-xs" style="margin-left: 0%">Ver mais</a>
+                                <a href="minhasExperiencias.jsf" class="btn btn-warning btn-xs" style="margin-left: 0%; background-color: #b48cd0;">Ver mais</a>
                             </div>
                         </div>
                     </div>
@@ -93,8 +83,10 @@
                                 <div aling="center">
                                     <!-- Abas de Meus animais e Meus eventos-->
                                     <ul class="nav nav-tabs">
-                                        <li class="active" style="width: 50%"><a href="#pets" data-toggle="tab">Animais</a></li>
-                                        <li style=" width: 50%"><a href="#eventos" data-toggle="tab">Eventos</a></li>
+                                        <li class="active" style="width: 33%"><a href="#pets" data-toggle="tab">Animais</a></li>
+                                        <li style=" width: 33%"><a href="#eventos" data-toggle="tab">Eventos</a></li>
+                                        <li style=" width: 33%"><a href="#anuncios" data-toggle="tab">Anúncios</a></li>
+                                        
                                     </ul>
                                 </div>
                                 <div id="myTabContent" class="tab-content">
@@ -121,7 +113,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-12" align="center">
-                                            <p><a href="meusAnimais.jsf" class="btn btn-default" style="background-color: #ffa812; color: white;border-radius: 0px;"><span class="glyphicon glyphicon-plus"></span><span></span>Ver Mais</a></p>
+                                            <p><a href="meusAnimais.jsf" class="btn btn-default" style="background-color: #b48cd0; color: white;border-radius: 0px;"><span class="glyphicon glyphicon-plus"></span><span></span>Ver Mais</a></p>
 
                                         </div>
                                     </div>
@@ -150,12 +142,46 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-12" align="center">
-                                                <p><a href="meusEventos.jsf" class="btn btn-default" style="background-color: #ffa812; color: white;border-radius: 0px;"><span class="glyphicon glyphicon-plus"></span><span></span>Ver Mais</a></p>
+                                                <p><a href="meusEventos.jsf" class="btn btn-default" style="background-color: #b48cd0; color: white;border-radius: 0px;"><span class="glyphicon glyphicon-plus"></span><span></span>Ver Mais</a></p>
 
                                             </div>
                                         </div>
                                     </div>
+                                    
+                                    
+                                    <!-- ANúncios -->
+                                    <div class="tab-pane fade" id="anuncios">
+                                        <div class="tab-pane fade active in" >
 
+                                            <div class="col-md-12" align="center" style="margin-top: 20px;margin-bottom: 20px;">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <img src="imagens/anuncio.jpg" width="200pc" height="200px" class="img-rounded meusEventos" alt="Imagem do evento"/>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <img src="imagens/anuncio.jpg" width="200px" height="200px" class="img-rounded meusEventos" alt="Imagem do evento"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12" align="center" style="margin-top: 20px;margin-bottom: 20px;">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <img src="imagens/anuncio.jpg" width="200pc" height="200px" class="img-rounded meusEventos" alt="Imagem do evento"/>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <img src="imagens/anuncio.jpg" width="200px" height="200px" class="img-rounded meusEventos" alt="Imagem do evento"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12" align="center">
+                                                <p><a href="meusAnuncios.jsf" class="btn btn-default" style="background-color: #b48cd0; color: white;border-radius: 0px;"><span class="glyphicon glyphicon-plus"></span><span></span>Ver Mais</a></p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    
                                 </div>
                             </div>
 
@@ -177,7 +203,8 @@
             </div>
         </div>
 
-
+        
+        
     </h:body>
 </html>
 
