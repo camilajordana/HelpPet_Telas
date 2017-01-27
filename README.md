@@ -1,5 +1,7 @@
 # HelpPet_Telas
-Repositório destinado às telas do sistema Help Pet
+Repositório destinado às telas do sistema Help Pet para a disciplina do PDS Distribuído (TADS-IFRN).
+
+Última atualização 14/01/2017
 
 
 ## Tela de login
@@ -201,7 +203,7 @@ Repositório destinado às telas do sistema Help Pet
 
 ## Tela de edição de estoque
 ![editar estoque 1](https://cloud.githubusercontent.com/assets/9848597/21955790/d1105c90-da50-11e6-9a38-18ff4f93d83a.png)
-![editar estoque 2](https://cloud.githubusercontent.com/assets/9848597/21955797/e26ff05e-da50-11e6-9311-cde3e3e06948.png)
+![editar estoque 2](https://cloud.githubusercontent.com/assets/9848597/21957072/c2706ef6-da6d-11e6-8862-5a4f3803b034.png)
 
 
 ## Tela de edição do perfil da ONG
