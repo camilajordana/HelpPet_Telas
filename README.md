@@ -1,7 +1,7 @@
 # HelpPet_Telas
 Repositório destinado às telas do sistema Help Pet para a disciplina do PDS Distribuído (TADS-IFRN).
 
-Última atualização 14/01/2017
+Última atualização 26/01/2017
 
 
 ## Tela de login
@@ -207,5 +207,24 @@ Repositório destinado às telas do sistema Help Pet para a disciplina do PDS Di
 
 
 ## Tela de edição do perfil da ONG
-![editar perfil da ong](https://cloud.githubusercontent.com/assets/9848597/21955810/11ed2da6-da51-11e6-88ae-3be3a5685bd7.png)
+![editarong](https://cloud.githubusercontent.com/assets/9848597/22357134/fde35c5e-e414-11e6-97f5-3972f534f94e.png)
 
+
+## Perfil da Clínica/Pet Shop
+![perfilpetshop 1](https://cloud.githubusercontent.com/assets/9848597/22357210/6fe05c6c-e415-11e6-8520-7f2c4fc44258.png)
+![perfilpetshop 2](https://cloud.githubusercontent.com/assets/9848597/22357222/80e8ebd2-e415-11e6-9f8d-fdbcf5219a22.png)
+
+
+## Tela de edição do perfil da clínica/pet shop
+![editar clinica](https://cloud.githubusercontent.com/assets/9848597/22357289/c400ebf4-e415-11e6-94a5-663cd98f2f0a.png)
+
+
+## Tela de listagem de Clínica/Pet Shops
+![listagem 1](https://cloud.githubusercontent.com/assets/9848597/22357339/1d72af42-e416-11e6-9ea7-e86c133b39e6.png)
+![listagem 2](https://cloud.githubusercontent.com/assets/9848597/22357350/2ed35746-e416-11e6-9b96-6498e3c90e35.png)
+
+
+## Tela inicial
+![index 1](https://cloud.githubusercontent.com/assets/9848597/22357389/72e5430e-e416-11e6-89ae-61c9ce74271a.png)
+![index 2](https://cloud.githubusercontent.com/assets/9848597/22357401/8a585e18-e416-11e6-9419-7b26f2c82c3b.png)
+![index 3](https://cloud.githubusercontent.com/assets/9848597/22357414/a5c3f784-e416-11e6-8117-cd2f27a29a37.png)
